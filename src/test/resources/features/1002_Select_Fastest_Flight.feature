@@ -10,7 +10,7 @@ Feature: Booking flight using Sky Scanner web site
 
     And I open sky scanner web site
     And I login sky scanner with below credentials
-      | maheshglm1@gmail.com | s8RNCs58jhv8UWH |
+      | Existing-username | password |
 
     When I select trip type as "<TripType>"
     And I select from location as "<FromLocation>"
