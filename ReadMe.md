@@ -2,14 +2,10 @@ Selenium Demo project is created using Java8, Cucumber, Junit to build a basic A
 Maven as a build tool and using cucumber-jvm-parallel-plugin to run SCENARIOS in parallel
 
 ===
-Feature files
+Feature files & Runner
 ===
-
- can be found in SeleniumDemo\src\test\resources\features
-
-===
-Cucumber Runner is created in SeleniumDemo\src\test\java\com\pageobect\demo\CucumberRunner.java
-===
+can be found in src\test\resources\features
+Cucumber Runner is created in src\test\java\com\pageobect\demo\CucumberRunner.java
 
 ===
 To Execute a specific Feature or Scenario (in Sequential):
