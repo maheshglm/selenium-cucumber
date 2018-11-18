@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 30,
+        "name": "Select flight using Sky Scanner",
+        "description": "",
+        "id": "booking-flight-using-sky-scanner-web-site;select-flight-using-sky-scanner;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4795223541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10551253578,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I initiate \"firefox\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDef.java:23"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6473278900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I open sky scanner web site",
+            "match": {
+              "location": "StepDef.java:31"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17847702738,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I login sky scanner with below credentials",
+            "match": {
+              "location": "StepDef.java:35"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "maheshglm1@gmail.com",
+                  "s8RNCs58jhv8UWH"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 388675211,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select trip type as \"OneWay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OneWay",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDef.java:44"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 904320884,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select from location as \"SIN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SIN",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDef.java:48"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 939125542,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select to location as \"HYD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HYD",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDef.java:52"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1321934824,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select departure date as \"2, February 2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2, February 2019",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDef.java:56"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714459368,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select number of adults as 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.java:64"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6352912905,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click Search flights",
+            "match": {
+              "location": "StepDef.java:68"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@select_flight"
+          }
+        ]
+      }
+    ],
+    "name": "Booking flight using Sky Scanner web site",
+    "description": "\r\nAs a Sky Scanner Existing User ,\r\nI should be able to select one way fastest flight with 0 stops between Singapore and Hyderabad",
+    "id": "booking-flight-using-sky-scanner-web-site",
+    "keyword": "Feature",
+    "uri": "D:/Projects/PaloIT/SeleniumDemo/src/test/resources/features/1002_Select_Fastest_Flight.feature"
+  }
+]
