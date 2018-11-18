@@ -1,5 +1,6 @@
 Selenium Demo project is created using Java8, Cucumber, Junit to build a basic Automation framework.
-Maven as a build tool and using cucumber-jvm-parallel-plugin to run SCENARIOS in parallel
+Maven as a build tool and using cucumber-jvm-parallel-plugin to run SCENARIOS in parallel.
+This framework supports Cross Browser + Parallel + Cucumber testing
 
 ===
 Feature files & Runner
